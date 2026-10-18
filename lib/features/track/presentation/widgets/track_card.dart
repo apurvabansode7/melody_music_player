@@ -24,7 +24,7 @@ class TrackCard extends StatelessWidget {
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
         color: AppColors.card,
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(1),
         border: Border.all(
           color: isActive ? AppColors.primary : Colors.transparent,
           width: 2,
